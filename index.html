@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&G Taller - Acceso</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #eef2f7;
+    }
+    h1 { color: #7b2d2d; }
+    .menu { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #7b2d2d;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover { transform: scale(1.05); background: #5a1f1f; }
+  </style>
+</head>
+<body>
+  <h1>🔧 D&G Taller</h1>
+  <div class="menu">
+    <a class="btn" href="cliente/">👤 Cliente</a>
+    <a class="btn" href="tecnico/">🔩 Técnico</a>
+    <a class="btn" href="supervisor/">📋 Supervisor</a>
+  </div>
+</body>
+</html>

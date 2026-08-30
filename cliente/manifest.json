@@ -1,16 +1,20 @@
 {
-"name":"D&G Taller - Cliente ABC1234",
-"short_name":"D&G Cliente",
-"start_url":"./?codigo=ABC1234",
+"name":"D&G CLIENTE",
+"short_name":"D&G S",
+"start_url":"./",
 "display":"standalone",
-"background_color":"#fffbf5",
+"background_color":"#eef2f7",
 "theme_color":"#7b2d2d",
-
-"icons":[
-{
-3 keys
+"icons":
+[
+ {
+   "src":"icon-192.jpg",
+"sizes":"192x192",
+"type":"image/jpeg"
 },
 {
-3 keys
-}]
+"src":"icon-512.jpg",
+"sizes":"512x512",
+"type":"image/jpeg"
+ }]
 }
